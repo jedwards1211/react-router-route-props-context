@@ -1,15 +1,17 @@
 # react-router-route-props-context
 
-This is my personal skeleton for creating a React library component npm module.  You are welcome to use it.
+## Installation
 
-## Tools used
+```
+npm install react-router-route-props-context react-router-apply-middleware
+```
 
-* babel 6
-* karma
-* karma-webpack
-* jasmine
-* enzyme
-* eslint
-* flow
+## Usage
 
-The `prepublish` script checks the output of `eslint`, `flow`, and `karma`.
+```js
+import applyMiddleware from 'react-router-apply-middleware'
+import routePropsContext from 'react-router-route-props-context'
+
+// use it like other router middleware
+<Router render={applyMiddleware(routePropsContext())}/>
+```
