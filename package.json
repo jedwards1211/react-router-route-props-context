@@ -1,6 +1,6 @@
 {
   "name": "react-router-route-props-context",
-  "version": "1.0.0-beta1",
+  "version": "1.0.0",
   "description": "puts routeProps on context of each route component",
   "main": "lib/index.js",
   "scripts": {
