@@ -1,6 +1,6 @@
 {
   "name": "react-router-route-props-context",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "puts routeProps on context of each route component",
   "main": "lib/index.js",
   "scripts": {
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/jedwards1211/react-router-route-props-context#readme",
   "peerDependencies": {
-    "react": "^0.14.x || ^15.0.0"
+    "react": "^0.14.x || ^15.0.0 || 16.2.0"
   },
   "devDependencies": {
     "babel-cli": "^6.8.0",
@@ -38,9 +38,9 @@
     "eslint-loader": "^1.3.0",
     "eslint-plugin-react": "^6.8.0",
     "flow-bin": "^0.56.0",
-    "react": "^15.5.4"
+    "react": "^16.2.0"
   },
   "dependencies": {
-    "prop-types": "^15.5.8"
+    "prop-types": "^15.6.0"
   }
 }
